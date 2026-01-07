@@ -1,9 +1,11 @@
-  plugins: [
-    function({ addComponents }) {
-      addComponents({
-        '.btn-primary': {
-          '@apply bg-blue-500 rounded-md': {},
-        },
-      })
-    }
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  darkMode: 'class',
+  content: [
+    // ...
   ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
